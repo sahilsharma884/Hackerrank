@@ -1,5 +1,0 @@
-![](/images/E1_1.JPG)
-![](/images/E1_2.JPG)
-![](/images/E1_3.JPG)
-![](/images/E1_4.JPG)
-![](/images/E1_5.JPG)
