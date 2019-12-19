@@ -37,4 +37,6 @@ for i in range(test_case):
     
     # We apply formula of sum of natural number with parameter which contain number of sets(N3;N5;N15)
     r = sumNatural(n_3)*3 + sumNatural(n_5)*5 - sumNatural(n_15)*15
+    
+    # Generate output of result
     print(r)
