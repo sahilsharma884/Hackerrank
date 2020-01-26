@@ -55,7 +55,7 @@ for a0 in range(t):
     # Create dictionary to store prime number as key and occurs of factor of each number as value
     # Read the algorithm in README.md
     pr_ = {}
-    for i in range(1,n+1):
+    for i in range(2,n+1):
         # If it is prime number, just multiply it by prime number
         if isprime(i):
             pr_[i] = 1
