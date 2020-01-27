@@ -8,6 +8,7 @@
 2. isprime(num) which to check whether this num is prime or not
 ![Page 3](images/isprime.PNG)
 3. pf_dict(num) which is used to generate factor of num in dictionary where __key__ as prime factor and __value__ as number of occurrences for that prime factor
+
 ![Page 4](images/pf_dict.PNG)
 
 ![Page 5](images/2.PNG)
