@@ -1,3 +1,4 @@
+# Project Euler #7: 10001st prime
 #!/bin/python3
 
 import sys
