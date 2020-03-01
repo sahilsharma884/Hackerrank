@@ -6,6 +6,6 @@
 `- Just follow Sieve algorithm until number of prime number we got it in the list is 10k `<br>
 `- If for given 'n' didnt give the number of prime number in the list is 10k, then just increase the n into 10x times`<br>
 3. Each of test case, [let says, a0]
-4. Since all the prime number are listed in sorted already. If you want to call 1st prime number, just pass the index = a0+1.<br>
+4. Since all the prime number are listed in sorted already. If you want to call 1st prime number (means, a0=1), just pass the index = a0-1.<br>
 
-__Why +1 a0? Because python start the list with index 0. And 1st prime number is stored in index = 0.__
+__Why -1 in a0? Because python start the list with index 0. And 1st prime number is stored in index = 0.__
