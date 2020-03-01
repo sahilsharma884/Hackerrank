@@ -5,7 +5,11 @@
 `- Consider n (to iterate till maximum number) [Let say n= 10lakhs)`<br>
 `- Just follow Sieve algorithm until number of prime number we got it in the list is 10k `<br>
 `- If for given 'n' didnt give the number of prime number in the list is 10k, then just increase the n into 10x times`<br>
-3. Each of test case, [let says, a0]
-4. Since all the prime number are listed in sorted already. If you want to call 1st prime number (means, a0=1), just pass the index = a0-1.<br>
+3. Now, we have stored all 10lakhs prime number in `prime_` variable
+4. All you need is just pass the index and subtract 1 to get your desired output as per test caae.
+For example
 
-__Why -1 in a0? Because python start the list with index 0. And 1st prime number is stored in index = 0.__
+prime_ = [2,3,4,7,9, ....] <br>
+If you want to call 1st prime number, then put n = 1. However in python, list starting index start with 0.<br>
+So, if you `print(prime_[n])`, it will give you wrong output `3`.<br>
+To make it correctly just pass n-1, `print(prime_[n-1])`<br>
